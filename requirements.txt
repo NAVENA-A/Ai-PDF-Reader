@@ -6,3 +6,4 @@ langchain-core
 chromadb
 pypdf
 pandas
+protobuf==3.20.3
