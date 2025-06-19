@@ -13,8 +13,6 @@ import pandas as pd
 
 api_key = os.getenv("GOOGLE_API_KEY")
 
-os.environ["GOOGLE_API_KEY"] = api_creds['gemini_api']
-
 st.set_page_config(page_title="File QA Assistant")
 st.title("Welcome to PDF QA Chatbot")
 
